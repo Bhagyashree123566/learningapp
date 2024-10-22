@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Trainer Home page </title>
+<link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+	<h2 id="St">Hey there <a th:text="${user.username}"> </a> Nice to see you</h2>
+	<div class="trainerHome">
+	<a href="/addC">Add Course</a>
+	
+	<a href="/viewCourse">View Course</a>
+	
+	<a href="/newLesson">ADD Lesson</a>
+</div>
+</body>
+</html>

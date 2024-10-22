@@ -1,0 +1,387 @@
+
+ @charset "ISO-8859-1";
+ 
+
+
+ #logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+ header{
+	 margin: 0px;
+ }
+ 
+    body{
+		
+            margin:0px;
+            background-image: url("/images/myImage.jpeg");
+            background-size:100% 715px;
+            
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            background-color:rgb(128, 255, 255);
+            position: sticky;
+
+        }
+       
+        #navbar a{
+			font-family: 'FuntypeRegular';
+		    font-weight: bold;
+		    font-style: normal;
+            text-decoration: none;
+            font-size: 25px;
+            color:rgb(0, 0, 128);
+        }
+        #navbar a:hover{
+            color: beige;
+        }
+        #navbar #logo{
+            font-family: 'PatchworkRegular';
+			font-weight: normal;
+			font-style: normal;
+            color:rgb(0, 128, 128);
+            font-size: 35px;
+            border: 3px plum;
+            border-color: rgb(0, 0, 0);
+            padding:5px 20px ;
+            border-radius: 7px;
+            
+
+        }
+        #newlogo{
+			font-family: 'PatchworkRegular';
+			font-weight: normal;
+			font-style: normal;
+            color:rgb(0, 0, 0);
+            font-size: 35px;
+            border: 3px plum;
+            border-color: rgb(0, 0, 0);
+            padding:5px 20px ;
+            border-radius: 7px;
+            display: inline;
+		}
+         #navbar #logo:hover{
+			 color: crimson;
+		 }
+         
+
+        .navlinks{
+			
+            display: flex;
+            list-style: none;
+            border: 3px dotted;
+            border-color: rgb(128, 128, 128);
+            padding:5px 30px ;
+            border-radius: 7px;
+           
+        }
+        .navlinks li{
+            margin-right: 10px;
+           
+        }
+         .bodycontainer{
+            display: flex;
+            flex-direction: row;
+            margin-left: 5%;
+            margin-top: 150px;
+            
+            background-image: url();
+           
+            
+        }
+         .bodycontainer p{
+			 color: rgb(0, 0, 128);
+			 font-size: large;
+			 font-family: 'MontserratAlternatesRegular';
+			 font-weight: normal;
+			   font-style: normal;
+		 }
+         
+        .bodycontainer #insidebodycontainer{
+			padding-top: 5%;
+			
+		}
+        
+        #index {
+		
+		    display: flex;
+		    margin-left: 12%; 
+		    flex-direction: column;
+		    align-items: center;
+		    padding: 10px 90px;
+		    border: 7px solid rgb(128, 0, 255) ;
+		    font-family: 'PlastikItaliqueRegular';
+		    color: darkgoldenrod;
+		    font-weight: normal;
+		    font-style: normal;
+		   
+	           }
+	           #index input{
+				   padding: 15px;
+				   background-color: rgb(64, 0, 0);
+				   color: crimson;
+				   font-weight: 100;
+				   font-family: 'CirqueeRegular';
+                   font-weight: bold;
+                   font-style: normal;
+			   }
+  
+        #newlogo{
+			font-family: 'PatchworkRegular';
+			font-weight: normal;
+			font-style: normal;
+            color:rgb(0, 0, 0);
+            font-size: 35px;
+            border: 3px plum;
+            border-color: rgb(0, 0, 0);
+            padding:5px 20px ;
+            border-radius: 7px;
+            display: inline;
+            color: rgb(255, 155, 34);
+		    }
+		    #insidebodycontainer p {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+#insidebodycontainer p.visible {
+  opacity: 1;
+  transform: translateY(0);}
+
+      footer{
+		  width: 100% ;
+		  height:10%;
+		  background-color: black;
+		  
+		  }
+	  
+
+#loginp{
+        border:3px solid darkorange;
+        text-align: center;
+        margin: 30px auto  ;
+        height: 700px;
+        width: 48%;
+
+    }
+    #loginp input,label{
+      
+        font-size: 20px;
+        display: block;
+        text-align: left;
+        
+    }
+    #loginp label{
+		color: darkblue;
+		
+		}
+    #loginp input{
+		
+        font-size: 25px;
+        width: 85%;
+    }
+    .loginform{
+        margin-left: 35px;
+        margin-top: 20%;
+    }
+    #loginp #loginBtn
+    {
+		color: darkblue;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 35%;
+        background-color: bisque;
+        border-width: 0px;
+
+
+    }
+    #loginp #loginBtn:hover{
+        background-color: burlywood;
+        
+    }
+    a{
+        text-decoration: none;
+        margin-top: 20px;
+    }
+     a:hover{
+        color: chocolate;
+        text-decoration: underline;
+
+
+    }
+
+    .register{
+        
+        display: block;
+        border-radius: 20px;
+        border:3px solid darkorange;
+        text-align: center;
+        margin: 30px auto  ;
+        height: 700px;
+        width: 48%;
+        padding: 15px;
+        padding-top: 30px;
+       
+    }
+    .register input,label{
+		
+        font-size: 20px;
+        display: block;
+        text-align: left;
+	}
+	.register  label{
+		color: darkblue;
+		
+		}
+	.register input{
+		
+        font-size: 25px;
+        width: 85%;
+    }	
+    
+   
+    .register .radio{
+		width: 20%;
+		
+        display: flex;
+        flex-direction: row;
+        border-width: 5px;
+        height: auto;
+        
+		
+	}
+
+	 .register .radio label{
+		 font-size: 21PX;
+	 }
+	 .register #loginBtn{
+		 color: darkblue;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 35%;
+        background-color: bisque;
+        border-width: 0px;
+		 
+	 }
+	 .options {
+		  border: 5px solid rebeccapurple;
+		  width:48%;
+		  height: 40vh;
+		  margin-top:5%;
+		  margin-right: auto;
+		  margin-left: auto;
+		  display: flex;
+		  text-align: center;
+		  justify-content: center;
+		  padding-top:7% ;
+	 }
+	 .options #StudentHomeLink2
+	 {
+		 margin-left: 10%;
+	 }
+	 table{
+		 border: 5px solid darkgoldenrod; 
+		 margin-right: auto;
+		 margin-left: auto;
+		 
+		
+	 }
+	 th{
+		 	 border: 2px solid gold;
+		 	 padding: 15px;
+		 	 font-size: 20px;
+		 	 color: blue;
+		 
+	 }
+	 
+	 td{
+		 border: 2px solid gold;
+		 padding: 15px;
+		 font-size: 19px;
+		 color: darkblue;
+	 }
+	 .btn{
+		 padding: 20px;
+		 padding-left:30px ;
+		 padding-right:30px ;
+		 background-color: bisque;
+		 font-family: Arial, Helvetica, sans-serif;
+		 
+	 }
+	 .btn:hover{
+		 background-color:aquamarine;
+	 }
+	 .trainerHome{
+		 border:3px solid blue;
+		 display: flex;
+		 flex-direction: column;
+		 text-align: center;
+		 padding: 25px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 width: 45%;
+		 height: 250px;
+		
+	 }
+	  .trainersHome{
+		  padding: 15px;
+		  height: 45%;
+		  width: 35%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  border: 2px solid slategrey;
+		  text-align: center;
+		  margin-top:10%;
+		  
+
+	  }
+	  .trainersHome input{
+		  text-align: right;
+	  }
+	  
+	
+	 .trainersHome label{
+		 font-size: 18px;
+		 color: slategrey;
+		 text-align: left;
+		 	
+	 }
+	
+	 .trainersHome #button{
+		 font-size: 12px;
+		 width: 20%;
+		 padding: 12px;
+		 background-color: bisque;
+	 }
+	 .trainersHome #button:hover{
+		 background-color: cadetblue;
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+    
+   
+   
+	
+	
+	
+	
+    
+		
+		

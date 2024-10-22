@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Index</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/great-vibes" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/plastik" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/funtype" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/patchwork" type="text/css"/>
+     <link rel="stylesheet" th:href="@{/css/style.css}"/>
+     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/jellee-typeface" type="text/css"/>
+     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css"/>
+		 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cirquee" type="text/css"/>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/open-sans" type="text/css"/>
+  </head>
+
+  <div>
+	  <header>
+        <nav>
+            <div id="navbar">
+            <a id="logo" href="/index">TECH STATION</a>
+
+            <ul class="navlinks">
+				<li><a href="/login">LogIN</a></li>
+                <li><a href="/aboutUs">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li><A href="/ourCourses">Our-Courses</A></li>
+            </ul>
+                   
+        </div>
+
+
+        </nav>
+    </header>
+	 <center><h1>Welcome to<p id="newlogo">TECH STATION</p></h1></center>
+	  
+	 <div class="bodycontainer">
+		 <div id="insidebodycontainer">
+		  
+		  <p>
+			  Empowering the Future Through Technology Education<br>
+			  Are you excited about the world of technology?<br>
+			  we at TECH STATION, we're dedicated to providing you with top-notch<br>
+			  education that equips you with the skills and knowledge needed to thrive in today's<br> digital world.<br>
+			  Whether you're a beginner looking to dip your toes into programming,<br>
+			  an aspiring designer aiming to create stunning user experiences,<br>
+			  or a seasoned professional seeking to upgrade your skills, we've got you covered.
+		  </p>
+		
+	  </div>
+	  <div id="index">
+		  <h1>Already have a Account</h1><br>
+         <a href="/login"><input type="button" value="Login" id="login" ></a><br>
+         <h1>New Here</h1><br>
+         <a href="/register"><input type="button" value="register" id="reg" formaction="/register"></a><br>
+         </div>
+	  
+	  </div>
+	  <footer>
+		  <h2>this is the footer</h2>
+		  
+	  </footer>
+		  
+	 <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("#insidebodycontainer p").classList.add("visible");
+  });
+</script>
+                         
+	   
+  </body>
+</html>

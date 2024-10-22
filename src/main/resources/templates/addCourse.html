@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+	<form class="trainersHome" method="post" action="/addCourse">
+		
+		<lable for="courseId">Course ID:   <input type="text" name="courseId" id="courseId"></lable>
+		
+		<br>
+		<lable>Course NAME: <input type="text" name="courseName"></lable>
+		
+		<br>
+		<lable>Course PRICE: <input type="text" name="coursePrice"></lable>
+		
+		<br>
+		
+		<input type="submit" value="AddCourse" id="button">
+		
+		
+	</form>
+
+</body>
+</html>
